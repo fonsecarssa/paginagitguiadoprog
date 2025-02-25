@@ -64,10 +64,35 @@ button {
     cursor: pointer;
     font-size: 16px;
     width: 100%;
-    max-width: 200px;
+    max-width: 300px;
     margin-top: 10px;
     
 }
+
+/*Estilização do gênero */
+
+input[type="radio"]{
+    margin-right: 5px;
+    
+}
+
+.radio-label{
+    display: inline-block;
+    margin-right: 20px
+}
+
+.radio-group{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.radio-group label{
+    margin: 0 15px;
+
+}
+
+
 
 /* Efeito ao passar o mouse sobre o botão */
 button:hover {

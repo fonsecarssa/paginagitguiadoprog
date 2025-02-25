@@ -9,7 +9,7 @@
 <body>
     <h1>FORMULÁRIO GIT</h1>
     <h2>LOGIN</h2>
-    <form action="submit.html" method="post">
+    <form action="submit.html" method="get">
         <label for="nome">Nome:</label>
         <input type="text" id="nome" required placeholder="Digite seu nome">
         <br></br>
@@ -17,6 +17,16 @@
         <label for="e-mail">E-Mail:</label>
         <input type="email" id="email" required placeholder="Digite seu e-mail">
         <br></br>
+        <br>
+        <div class="radio-group">
+            <label class="radio-label">Masculino</label>
+            <input type="radio" id="masculino" name="genero" value="Masculino">
+            
+            <label class="radio-label">Feminino</label>
+            <input type="radio" id="Feminino" name="genero" value="Feminino">
+        
+        </div>
+        
         <button type="submit">Enviar</button>
         
     </form>
